@@ -58,7 +58,7 @@ export function HomeBody({ getData }) {
               return (
                 <>
                   <div
-                    className=" hover:cursor-pointer border bg-white rounded-md w-full shadow-sm space-y px-3 pt-2 pb-2"
+                    className=" hover:cursor-pointer border bg-white rounded-md w-full shadow-sm space-y-3 px-3 pt-2 pb-2"
                     id={ele.id}
                     onClick={() => setId(ele.id)}
                   >
