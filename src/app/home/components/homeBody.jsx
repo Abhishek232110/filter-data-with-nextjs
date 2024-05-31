@@ -62,7 +62,6 @@ export function HomeBody({ getData }) {
                     id={ele.id}
                     onClick={() => setId(ele.id)}
                   >
-                    <h1>{ele.id}</h1>
                     <div className=" flex justify-center p-2">
                       <img
                         src={ele.image}
